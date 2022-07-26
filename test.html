@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="test.css">
+  <!--?box-sizing은 요소의 높이와 넓이를 정의하며 border-box는 box-sizing의 높이와 넓이의 안쪽넓이와 테두리를 포함하며 바깥넓이는 포함하지 않는 -->
+  <style>
+    body{
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    ul{
+      margin: 0; padding: 0; list-style-type: none;
+    }
+  </style>
+</head>
+<!-- !header, main, footer로 페이지의 구역을 나눔 -->
+<!-- nav는 구획을 나눌떄 사용 -->
+<body>
+  <div class="div_1">
+    <header class="header_1">
+      <nav>
+        <ul>
+          <li class="li_1">menu-1</li>
+          <li class="li_1">menu-2</li>
+          <li class="li_1">menu-3</li>
+          <li class="li_1">menu-4</li>
+          <li class="li_1">menu-5</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main_1">
+      <section class="section_1">
+        <aside class="aside_1">this is aside</aside>
+        <article class="article_1">this is article</article>
+      </section>
+    </main>
+    <footer class="footer_1"></footer>
+  </div>
+</body>
+</html>

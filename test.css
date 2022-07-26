@@ -1,0 +1,53 @@
+/* vw는  뷰포트(전체 문서의 출력되어 보이는 부분)의 너비의 %를 vh는 높이의 %를 보여준다.*/
+.div_1{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #333;
+}
+
+/* inherit은 부모 요소로부터 해당 속성의 계산값을 상속 받는다는 의미 */
+.header_1{
+width: inherit;
+height: 10vh;
+background-color: #222;
+}
+
+/* display: inline-block */
+.li_1{
+width: 200px;
+background-color: #aaa;
+display: inline-block;
+}
+
+.main_1{
+  height: 50vh;
+  background-color: #ccc;
+}
+
+/* dashed 태두리를 여러개의 직사각형으로 그림 */
+.section_1{
+width: 90vw;
+height: 30vh;
+border: 1px dashed #000;
+padding: 20px;
+}
+
+.aside_1{
+  width: 30vw;
+  height: inherit;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.article_1{
+  width: 30vw;
+  height: inherit;
+  background-color: skyblue;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer_1{
+ height: 20vh;
+ background-color: silver;
+}
